@@ -108,7 +108,7 @@ function sortByName() {
 }
 
 function sortByImportance() {
-    gTodos.sort((a, b) => (b.importance - a.importance))
+    gTodos.sort((a,b) => (b.importance - a.importance))
 
 }
 
